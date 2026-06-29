@@ -30,6 +30,7 @@ SparshSahayak addresses this challenge by converting difficult procedural conten
 
 ### Backend
 - FastAPI
+- SQLite
 - Ollama (LLM)
 - Hugging Face TTS
 - FFmpeg
@@ -45,21 +46,14 @@ Before you begin, ensure you have the following installed on your Windows machin
 - Python 3.11+
 - Node.js & npm
 - Ollama installed and running with LLaMA 3 downloaded.
-          Download Ollama from ollama.com
-          Open a terminal and run: ollama run llama3
+          - Download Ollama from ollama.com
+          - Open a terminal and run: ollama run llama3
 - FFmpeg installed and added to your Windows PATH.
-          Download from gyan.dev (Get the essentials build)
-          Extract it and add the bin folder to your System Environment Variables PATH.
+          - Download from gyan.dev (Get the essentials build)
+          - Extract it and add the bin folder to your System Environment Variables PATH.
 -Hindi Font:
-          Download NotoSansDevanagari-Regular.ttf from Google Fonts
-          Create a fonts folder inside backend/ and place the .ttf file there.
-
-### AI Components
-- Story Generation using LLM
-- Translation Pipeline
-- Voice Generation
-- Scene Prompt Generation
-- Animation/Video Generation
+          - Download NotoSansDevanagari-Regular.ttf from Google Fonts
+          - Create a fonts folder inside backend/ and place the .ttf file there.
 
 ## Workflow
 
@@ -112,11 +106,9 @@ npm start
 
 ## Future Improvements
 
-- Realistic AI-generated animations
 - Multiple regional language support
 - Interactive chatbot assistant
 - Face/avatar-based narration
-- Mobile application deployment
 
 ## Project Goal
 
