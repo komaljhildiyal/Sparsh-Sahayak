@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🇮🇳 SPARSH Life Certificate Tutorial System
 
 An intelligent, multilingual application that takes SPARSH government procedure text as input, converts it into simple animated video tutorials, narrates instructions in Hindi, works offline, and has a senior-citizen friendly UI.
