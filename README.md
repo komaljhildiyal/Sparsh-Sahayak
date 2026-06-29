@@ -39,6 +39,21 @@ SparshSahayak addresses this challenge by converting difficult procedural conten
 - React.js
 - HTML/CSS
 
+## Prerequisites
+Before you begin, ensure you have the following installed on your Windows machine:
+
+- Python 3.11+
+- Node.js & npm
+- Ollama installed and running with LLaMA 3 downloaded.
+          Download Ollama from ollama.com
+          Open a terminal and run: ollama run llama3
+- FFmpeg installed and added to your Windows PATH.
+          Download from gyan.dev (Get the essentials build)
+          Extract it and add the bin folder to your System Environment Variables PATH.
+-Hindi Font:
+          Download NotoSansDevanagari-Regular.ttf from Google Fonts
+          Create a fonts folder inside backend/ and place the .ttf file there.
+
 ### AI Components
 - Story Generation using LLM
 - Translation Pipeline
@@ -63,6 +78,30 @@ Voice Generation
 Animation Generation  
 ↓  
 Final Tutorial Video Output
+
+## Installation
+
+### Clone repository
+
+git clone <repo-link>
+
+cd sparsh-tutorial-main
+
+### Backend setup
+
+cd backend
+
+pip install -r requirements.txt
+
+python -u -m uvicorn main:app --port 8001
+
+### Frontend setup
+
+cd frontend
+
+npm install
+
+npm start
 
 ## Target Users
 
